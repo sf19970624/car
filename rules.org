@@ -1,0 +1,17 @@
+#+TITLE: Rules
+#+AUTHOR: cjqw
+
+* Environment
+- OS: Linux
+- jdk ver: open-jdk 1.8.*
+- version control : git
+- git server : github
+- IDE : what ever you like (e.g. Intellij, Eclipse ...)
+
+
+
+* Style Guide
+- class name : uppper camel case (e.g. $MyOwnClass$)
+- method name : uppper camel case (e.g. $myOwnMethod$)
+- variable name : lower case, underline to concat words (e.g. $my\_own\_variable$)
+- underline as prefix for local variable in a function (e.g. $\_my\_local\_variable$)

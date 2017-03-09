@@ -15,3 +15,7 @@
 - method name : uppper camel case (e.g. $myOwnMethod$)
 - variable name : lower case, underline to concat words (e.g. $my\_own\_variable$)
 - underline as prefix for local variable in a function (e.g. $\_my\_local\_variable$)
+
+* More
+- Each function should not exceed 50 lines
+- Follow [[http://www.cnblogs.com/bluestorm/archive/2012/10/04/2711329.html][javadoc]] rules

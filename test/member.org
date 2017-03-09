@@ -1,7 +1,0 @@
-* member list
-| name | student ID | github account |
-| 仇伟 | 5140309570 | cjqw           |
-|      |            |                |
-|      |            |                |
-* Tasks
-FIXME

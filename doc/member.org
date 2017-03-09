@@ -1,7 +1,7 @@
 * member list
-| name | student ID | github account |
-| 仇伟 | 5140309570 | cjqw           |
-|盛丰      |    515071910030        |   sf19970624             |
-|      |            |                |
+| name |   student ID | github account | Email             |
+| 仇伟 |   5140309570 | cjqw           | 2462457751@qq.com |
+| 盛丰 | 515071910030 | sf19970624     |                   |
+|      |              |                |                   |
 * Tasks
 FIXME

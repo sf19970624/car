@@ -1,0 +1,58 @@
+#+TITLE: Requirement Analysis
+#+AUTHOR:
+#+OPTIONS: todo:nil
+
+#+BEGIN_abstract
+This document will analyse the requirement of this project.
+All the functional requirement will be defined in this document.
+In the beginning, I will refer to basic functional goals in the
+system.More complex requirements will be added soon.
+#+END_abstract
+
+* TODO Basic Functions
+This section will define the basic function of this project.
+Upon finishing these functions,we can use the app to control
+the movement of a car.
+
+** TODO Sending Command
+This app can send commands from a mobile phone to a car via bluetooth
+and control the movement of it.These commands should control the speed
+and direction of the car.
+
+** TODO Message Exchange
+This app can exchange messages between two mobiles via WIFI connection.
+Only simple messages representing commands need to be exchanged between
+mobiles.
+
+** TODO User Interface
+A simple user interface that contains several buttons, which represents
+directions of the car.
+
+To understand it,assume the user press "FORWARD"
+button,the car will run forward in a constant speed.
+
+If the user press "LEFT" button,the car will always turning left in the same speed.
+"RIGHT" button will do the opposite.
+
+If multiple buttons are pressed,"LEFT" and "RIGHT"
+works before "FORWARD".If both "LEFT" and "RIGHT" are pressed, the car will
+run forward.
+
+* TODO High Order Functions
+This section will define the rest of the functions.They are more complex
+and may need third-party libraries.
+** TODO Mobile as Sensor
+This app can use mobile as a sensor.
+The client end can sense gravity, sound and gestures.
+The server end can sense the movement of the car.
+** TODO Sound Recognition
+The client end can recognize sounds and change them into commands.
+** TODO Sensing Gravity
+The client end can sense the gravity change and control the movement
+of the car.
+** TODO Obstacle Recognition
+The server end can recognize the movement of the car and
+send a message to the client when the car didn't run as expected.
+* Revision History
+|       data | version | comment                      |
+| 2017-03-09 | v0.1.0  | initialize the first version |
